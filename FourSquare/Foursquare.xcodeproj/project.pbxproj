@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FD81E2226859BA1000304A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD81E2126859BA1000304A3 /* AppDelegate.swift */; };
+		5FD81E2426859BA1000304A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD81E2326859BA1000304A3 /* SceneDelegate.swift */; };
+		5FD81E2626859BA1000304A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD81E2526859BA1000304A3 /* ViewController.swift */; };
+		5FD81E2926859BA1000304A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD81E2726859BA1000304A3 /* Main.storyboard */; };
+		5FD81E2B26859BA3000304A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FD81E2A26859BA3000304A3 /* Assets.xcassets */; };
+		5FD81E2E26859BA3000304A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD81E2C26859BA3000304A3 /* LaunchScreen.storyboard */; };
+		BF4F81C62685C74E0070C3A4 /* AvenirBookFontWIthSize15.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F81C52685C74E0070C3A4 /* AvenirBookFontWIthSize15.swift */; };
+		BF4F81C92685C8830070C3A4 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F81C82685C8830070C3A4 /* UIColor+Extension.swift */; };
+		BF4F81CC2685CB2F0070C3A4 /* AvenirBookFontWithSize22.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F81CB2685CB2F0070C3A4 /* AvenirBookFontWithSize22.swift */; };
+		BF5659602685B3D500D40730 /* BackgroundSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56595F2685B3D500D40730 /* BackgroundSettingsView.swift */; };
+		BF5659632685B4BC00D40730 /* UIImage+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5659622685B4BC00D40730 /* UIImage+Extention.swift */; };
+		BF5659672685B68600D40730 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5659662685B68600D40730 /* SignUpController.swift */; };
+		BF56596A2685C1DF00D40730 /* Avenir Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF5659692685C1DF00D40730 /* Avenir Book.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5FD81E1E26859BA1000304A3 /* Foursquare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foursquare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD81E2126859BA1000304A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FD81E2326859BA1000304A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5FD81E2526859BA1000304A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5FD81E2826859BA1000304A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FD81E2A26859BA3000304A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FD81E2D26859BA3000304A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FD81E2F26859BA3000304A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF4F81C52685C74E0070C3A4 /* AvenirBookFontWIthSize15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvenirBookFontWIthSize15.swift; sourceTree = "<group>"; };
+		BF4F81C82685C8830070C3A4 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		BF4F81CB2685CB2F0070C3A4 /* AvenirBookFontWithSize22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvenirBookFontWithSize22.swift; sourceTree = "<group>"; };
+		BF56595F2685B3D500D40730 /* BackgroundSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundSettingsView.swift; sourceTree = "<group>"; };
+		BF5659622685B4BC00D40730 /* UIImage+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extention.swift"; sourceTree = "<group>"; };
+		BF5659662685B68600D40730 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		BF5659692685C1DF00D40730 /* Avenir Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Avenir Book.ttf"; path = "../../../Downloads/Avenir Book/Avenir Book.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FD81E1B26859BA1000304A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FD81E1526859BA1000304A3 = {
+			isa = PBXGroup;
+			children = (
+				5FD81E2026859BA1000304A3 /* Foursquare */,
+				5FD81E1F26859BA1000304A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FD81E1F26859BA1000304A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FD81E1E26859BA1000304A3 /* Foursquare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FD81E2026859BA1000304A3 /* Foursquare */ = {
+			isa = PBXGroup;
+			children = (
+				5FD81E2126859BA1000304A3 /* AppDelegate.swift */,
+				5FD81E2326859BA1000304A3 /* SceneDelegate.swift */,
+				5FD81E2526859BA1000304A3 /* ViewController.swift */,
+				BF5659662685B68600D40730 /* SignUpController.swift */,
+				5FD81E2726859BA1000304A3 /* Main.storyboard */,
+				BF4F81CB2685CB2F0070C3A4 /* AvenirBookFontWithSize22.swift */,
+				BF4F81C52685C74E0070C3A4 /* AvenirBookFontWIthSize15.swift */,
+				BF4F81C82685C8830070C3A4 /* UIColor+Extension.swift */,
+				BF5659692685C1DF00D40730 /* Avenir Book.ttf */,
+				BF56595F2685B3D500D40730 /* BackgroundSettingsView.swift */,
+				BF5659622685B4BC00D40730 /* UIImage+Extention.swift */,
+				5FD81E2A26859BA3000304A3 /* Assets.xcassets */,
+				5FD81E2C26859BA3000304A3 /* LaunchScreen.storyboard */,
+				5FD81E2F26859BA3000304A3 /* Info.plist */,
+			);
+			path = Foursquare;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FD81E1D26859BA1000304A3 /* Foursquare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FD81E3226859BA3000304A3 /* Build configuration list for PBXNativeTarget "Foursquare" */;
+			buildPhases = (
+				5FD81E1A26859BA1000304A3 /* Sources */,
+				5FD81E1B26859BA1000304A3 /* Frameworks */,
+				5FD81E1C26859BA1000304A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Foursquare;
+			productName = Foursquare;
+			productReference = 5FD81E1E26859BA1000304A3 /* Foursquare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FD81E1626859BA1000304A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5FD81E1D26859BA1000304A3 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 5FD81E1926859BA1000304A3 /* Build configuration list for PBXProject "Foursquare" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FD81E1526859BA1000304A3;
+			productRefGroup = 5FD81E1F26859BA1000304A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FD81E1D26859BA1000304A3 /* Foursquare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FD81E1C26859BA1000304A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD81E2E26859BA3000304A3 /* LaunchScreen.storyboard in Resources */,
+				5FD81E2B26859BA3000304A3 /* Assets.xcassets in Resources */,
+				5FD81E2926859BA1000304A3 /* Main.storyboard in Resources */,
+				BF56596A2685C1DF00D40730 /* Avenir Book.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FD81E1A26859BA1000304A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5659632685B4BC00D40730 /* UIImage+Extention.swift in Sources */,
+				BF4F81CC2685CB2F0070C3A4 /* AvenirBookFontWithSize22.swift in Sources */,
+				BF4F81C62685C74E0070C3A4 /* AvenirBookFontWIthSize15.swift in Sources */,
+				5FD81E2626859BA1000304A3 /* ViewController.swift in Sources */,
+				5FD81E2226859BA1000304A3 /* AppDelegate.swift in Sources */,
+				5FD81E2426859BA1000304A3 /* SceneDelegate.swift in Sources */,
+				BF5659602685B3D500D40730 /* BackgroundSettingsView.swift in Sources */,
+				BF5659672685B68600D40730 /* SignUpController.swift in Sources */,
+				BF4F81C92685C8830070C3A4 /* UIColor+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5FD81E2726859BA1000304A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FD81E2826859BA1000304A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FD81E2C26859BA3000304A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FD81E2D26859BA3000304A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FD81E3026859BA3000304A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FD81E3126859BA3000304A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FD81E3326859BA3000304A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Foursquare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robosoft.Foursquare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5FD81E3426859BA3000304A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Foursquare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robosoft.Foursquare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FD81E1926859BA1000304A3 /* Build configuration list for PBXProject "Foursquare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD81E3026859BA3000304A3 /* Debug */,
+				5FD81E3126859BA3000304A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FD81E3226859BA3000304A3 /* Build configuration list for PBXNativeTarget "Foursquare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD81E3326859BA3000304A3 /* Debug */,
+				5FD81E3426859BA3000304A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FD81E1626859BA1000304A3 /* Project object */;
+}
